@@ -1,61 +1,40 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Fundo com gradiente bonito */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(135deg, #1e3c72, #2a5298);
-  color: #ffffff;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Container central estilo card */
 .container {
   background: rgba(255, 255, 255, 0.1);
   padding: 40px;
   border-radius: 15px;
   backdrop-filter: blur(10px);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   text-align: center;
-  max-width: 500px;
-  width: 90%;
+  color: white;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
 }
 
-/* Título estilizado */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  letter-spacing: 1px;
 }
 
-/* Parágrafo moderno */
 p {
   font-size: 18px;
-  line-height: 1.6;
-  opacity: 0.9;
+  margin-bottom: 10px;
 }
 
-/* Botão bonito (opcional) */
-button {
+.assinatura {
   margin-top: 20px;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 8px;
-  background: #ffffff;
-  color: #2a5298;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-button:hover {
-  background: #e0e0e0;
-  transform: scale(1.05);
+  font-size: 14px;
+  opacity: 0.8;
 }
