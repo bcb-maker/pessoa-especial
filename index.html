@@ -2,16 +2,36 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Mensagem</title>
+  <title>Mensagem para meu Pai</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
   <div class="container">
-    <h1>Erivelto</h1>
-    <p>Te amo pai ❤️</p>
-    <p class="assinatura">Assinado: Brian Costa Bandeira</p>
+    <h1>❤️ Pai, Erivelto ❤️</h1>
+
+    <p class="destaque">Te amo muito!</p>
+    <p>Obrigado por tudo que você faz por mim.</p>
+
+    <!-- Botão -->
+    <button class="botao" onclick="mostrarMensagem()">
+      Clique aqui pai 💌
+    </button>
+
+    <!-- Mensagem escondida -->
+    <p id="mensagemSecreta" style="display: none; margin-top: 20px;">
+      Você é meu herói! 💙 Obrigado por sempre estar comigo.
+    </p>
+
+    <p class="assinatura">Com amor, Brian Costa Bandeira</p>
   </div>
+
+  <script>
+    function mostrarMensagem() {
+      const msg = document.getElementById("mensagemSecreta");
+      msg.style.display = "block";
+    }
+  </script>
 
 </body>
 </html>
